@@ -1,0 +1,2 @@
+console.log(1 < 2 < 2); // true, Javascript parses step by step, so equivalent is (1 < 2) < 2, which is boolean compared to 2. Boolean(2) is true, therefore it compares true && true, which is true.
+console.log(3 > 2 > 1); // false, (3 > 2) is true and 1 is converted to true, therefore true > true which is false.
